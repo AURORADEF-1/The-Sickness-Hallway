@@ -1,0 +1,9 @@
+THORNBACK TITAN FINALE — 2026-10-30
+
+Uses only previously approved alligator, lion and low-cello recordings from doorway-roar-alligator-lion-cello.wav and their retained source edit layers. No film samples, new voice generation, or external downloads. See doorway-roar-SOURCES.txt for original CC0 source links and authors.
+
+New treatment: preserve the core approved creature voice; add an actual half-speed alligator layer filtered to 42–420 Hz for mass, the existing alligator's 100–850 Hz chest resonance, and a separately saturated 650–4800 Hz lion texture for aggressive presence. Replace the old 600 ms attack with 90 ms, preserving a smooth 700 ms final release. Continuous tanh saturation adds sustained density without hard clipping. Subsonic and excessive high frequencies filtered; mono 24 kHz 16-bit, exactly seven seconds so encounter cue timing is unchanged. Peak limited by normalization to 0.92 and target whole-clip RMS 0.405. Runtime mixer headroom must still be checked with other sounds playing.
+
+Reproducible script: work/thornback-underhello/create_titan_roar.py
+Measured output: work/thornback-underhello/titan-roar-measurements.json
+Subjective listening approval not claimed; numerical loudness and duration checks only.

@@ -1,0 +1,167 @@
+{
+  "suit": {
+    "name": "MOTH suit",
+    "slot": "suit",
+    "weight": 4.8,
+    "protection": 64,
+    "mobility": -8,
+    "description": "Sealed protection for the air beyond Hearth."
+  },
+  "backpack": {
+    "name": "Backpack",
+    "slot": "backpack",
+    "weight": 1.4,
+    "capacity": 24,
+    "description": "Field pack with pockets and external attachment straps."
+  },
+  "map": {
+    "name": "Map",
+    "slot": "map",
+    "weight": 0.15,
+    "coverage": "Hearth and known expedition routes",
+    "description": "Your marked routes. New discoveries remain in the field map."
+  },
+  "radio": {
+    "name": "Radio",
+    "slot": "radio",
+    "weight": 0.65,
+    "battery": true,
+    "description": "Field communications and observation-post check-ins."
+  },
+  "torch": {
+    "name": "Red head torch",
+    "slot": "torch",
+    "weight": 0.35,
+    "battery": true,
+    "description": "Battery-powered red helmet light. F or L toggles; aiming focuses. Holster with H, then R to change its battery."
+  },
+  "rifle": {
+    "name": "AR rifle",
+    "slot": "rifle",
+    "weight": 3.4,
+    "ammo": "556",
+    "magazine": 30,
+    "weapon_type": "M16",
+    "description": "Issued patrol rifle. Loans are returned at intake."
+  },
+  "scoped": {
+    "name": "Scoped rifle",
+    "slot": "rifle",
+    "weight": 4.1,
+    "ammo": "762",
+    "magazine": 5,
+    "weapon_type": "Scoped rifle",
+    "description": "Recovered scoped hunting rifle."
+  },
+  "pistol": {
+    "name": "Pistol",
+    "slot": "pistol",
+    "weight": 0.85,
+    "ammo": "9mm",
+    "magazine": 18,
+    "weapon_type": "Handgun",
+    "description": "9mm sidearm with one 18-round magazine. No spare magazine is issued."
+  },
+  "medical": {
+    "name": "Medical kit",
+    "slot": "medical",
+    "weight": 0.12,
+    "stack": true,
+    "effect": "One bandage treats bleeding through the existing aid action.",
+    "description": "Personal bandages, separate from the community medicine store."
+  },
+  "filter": {
+    "name": "Filter cartridge",
+    "weight": 0.2,
+    "stack": true
+  },
+  "556": {
+    "name": "5.56 mm",
+    "weight": 0.012,
+    "stack": true
+  },
+  "762": {
+    "name": "Rifle ammunition",
+    "weight": 0.024,
+    "stack": true
+  },
+  "9mm": {
+    "name": "9 mm",
+    "weight": 0.012,
+    "stack": true
+  },
+  "knife": {
+    "name": "Knife",
+    "weight": 0.3
+  },
+  "bow": {
+    "name": "Bow",
+    "weight": 1.1
+  },
+  "notebook": {
+    "name": "Notebook",
+    "weight": 0.25
+  },
+  "ear_defenders": {
+    "name": "Ear defenders",
+    "weight": 0.28
+  },
+  "arrows": {
+    "name": "Arrows",
+    "weight": 0.03,
+    "stack": true
+  },
+  "stimulants": {
+    "name": "Stimulants",
+    "weight": 0.01,
+    "stack": true
+  },
+  "spare_guns": {
+    "name": "Recovered spare weapons",
+    "weight": 3.4,
+    "stack": true
+  },
+  "prologue_antivirus": {
+    "name": "Recovered antivirus vials",
+    "description": "Sealed vials recovered on the hunt with Eve. Submit at check-in.",
+    "stack": true,
+    "weight": 0.1,
+    "slot": "",
+    "category": "supplies"
+  },
+  "shotgun": {
+    "name": "Pump shotgun",
+    "slot": "rifle",
+    "weight": 3.5,
+    "ammo": "12ga",
+    "magazine": 8,
+    "weapon_type": "Shotgun",
+    "description": "Eight-shell pump shotgun. Wide pellet pattern; load loose shells individually."
+  },
+  "12ga": {
+    "name": "12-gauge shells",
+    "weight": 0.045,
+    "stack": true,
+    "description": "Buckshot shells for the patrol shotgun."
+  },
+  "smg": {
+    "name": "SMG",
+    "slot": "rifle",
+    "weight": 2.8,
+    "ammo": "9mm",
+    "magazine": 30,
+    "weapon_type": "SMG",
+    "description": "Full-auto only. Thirty-round 9mm magazine. Hold the trigger to fire."
+  },
+  "torch_cell": {
+    "name": "Head-torch battery",
+    "weight": 0.06,
+    "stack": true,
+    "description": "Spare power cell for the red head torch. H to holster, then R to fit."
+  },
+  "crowbar": {
+    "name": "Crowbar",
+    "weight": 1.1,
+    "description": "Pry open jammed doors. Select in backpack, then E at a jammed door. Makes a loud noise."
+  }
+}

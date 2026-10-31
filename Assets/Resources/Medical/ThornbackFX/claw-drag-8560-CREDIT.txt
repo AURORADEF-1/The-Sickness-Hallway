@@ -1,0 +1,17 @@
+THE SICKNESS — User-supplied dragging / scraping Foley
+Source: IMG_8560.mov, supplied by George Ambrose in this project conversation on 2026-10-31.
+Original attachment: /tmp/codex-remote-attachments/01a07630-ee95-73c1-9cfb-b0cce7cc01c5/0E699F93-81DC-4442-928E-CFCB53BFC3B6/1-IMG_8560.mov
+Used here under the user's instruction to add this recording to the monster approach.
+No claim of third-party public-domain or redistribution licensing is made.
+
+claw-drag-8560.wav: source 0.44–4.14 seconds.
+claw-drag-8560-b.wav: source 4.14–7.84 seconds.
+Both: mono 48 kHz PCM16; 58 Hz high-pass, 7.4 kHz low-pass,
+gentle -1.8 dB EQ at 3.3 kHz, 0.93 speed/pitch, 120 ms circular join,
+peak -5 dBFS. No synthetic layers, voices, or music added.
+Do not play continuously while the creature is stationary. The motion/contact
+system controls attack/release, spatial distance and corridor reverberation.
+
+Reproducible processing and measurements:
+work/thornback-drag-8560/audio/process_foley.py
+work/thornback-drag-8560/audio/measurements.json

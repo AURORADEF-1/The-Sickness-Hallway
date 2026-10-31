@@ -1,0 +1,10 @@
+# Roar sample and glass footsteps
+
+Public HQ previews downloaded from the source pages below. Each Freesound page identifies its audio as CC0. Pages are retained in source/*.html.
+
+- Alligator Growls 02.wav — D.jones: https://freesound.org/people/D.jones/sounds/527844/
+- lion_growls.wav — stratcat322, derived from roman_cgr: https://freesound.org/people/stratcat322/sounds/270383/ (original https://freesound.org/people/roman_cgr/sounds/223978/)
+- cello_mono.wav — speedyrce: https://freesound.org/people/speedyrce/sounds/329777/
+- stepping_on_glass.wav — Mystikuum: https://freesound.org/people/Mystikuum/sounds/376459/
+
+Mix: isolated alligator and lion layers slowed to 75% pitch/speed; cello lowered one octave; separate frequency bands, RMS-balanced layers, soft saturation, attack/release fades. Mono 24 kHz, 7 seconds, peak 0.78. No clipped output samples. This roar is now the doorway cue approved for integration; the earlier low growl remains for the distant approach. Glass footsteps use an isolated 650 ms transient with fades, played from foot level through existing corridor acoustics.

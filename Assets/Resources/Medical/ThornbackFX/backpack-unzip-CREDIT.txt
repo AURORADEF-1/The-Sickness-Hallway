@@ -1,0 +1,17 @@
+# Backpack unzip foley
+
+Source: **Zipper Regular Pull 02** by **Rudmer_Rotteveel**, published 22 September 2020.
+
+- Source/license page: https://freesound.org/people/Rudmer_Rotteveel/sounds/536233/
+- License: **Creative Commons Zero 1.0 (CC0)**, https://creativecommons.org/publicdomain/zero/1.0/
+- Downloaded public high-quality MP3 preview: https://cdn.freesound.org/previews/536/536233_4921277-hq.mp3
+- License verified 31 October 2026 against the source page; page HTML retained as `source-page.html`.
+- CC0 permits commercial use and modification; attribution is not required but retained here for provenance.
+
+The source is a real zipper pull recording, tagged backpack, bag, open, opening and unzip. One complete pull was used. The public preview is the source, rather than the login-only original WAV.
+
+Processing: mono 48 kHz PCM16, trim 0.030–0.875 seconds, DC removal, 8 ms fade-in / 25 ms fade-out, normalize to -5 dBFS peak. Final duration **0.845 seconds**. No generated/synthetic sound, time stretch, reverb or distortion baked in. `process.py` reproduces this from the retained decoded source.
+
+Unity resource: `Medical/ThornbackFX/backpack-unzip`.
+
+Timing recommendation: start about 0.45–0.65 seconds before the bag opens so the zipper's strongest action precedes the reveal and its quieter fabric tail bridges the opening.

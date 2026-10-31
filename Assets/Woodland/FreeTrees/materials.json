@@ -1,0 +1,40 @@
+{
+  "pine_tree_01_bark": {
+    "normal": "pine_tree_01_bark_nor_gl_1k.png",
+    "diff": "pine_tree_01_bark_diff_1k.png"
+  },
+  "pine_tree_01_trunk_a": {
+    "diff": "pine_tree_01_trunk_a_diff_1k.png",
+    "normal": "pine_tree_01_trunk_a_nor_gl_1k.png"
+  },
+  "pine_tree_01_twig": {
+    "alpha": "pine_tree_01_twig_alpha_1k.png",
+    "normal": "pine_tree_01_twig_nor_gl_1k.png",
+    "diff": "pine_tree_01_twig_diff_1k.png"
+  },
+  "pine_tree_01_dead_branches": {
+    "diff": "pine_tree_01_bark_diff_1k.png",
+    "normal": "pine_tree_01_bark_nor_gl_1k.png"
+  },
+  "pine_tree_01_trunk_b": {
+    "normal": "pine_tree_01_bark_nor_gl_1k.png",
+    "diff": "pine_tree_01_bark_diff_1k.png"
+  },
+  "pine_tree_01_trunk_c": {
+    "diff": "pine_tree_01_trunk_c_diff_1k.png",
+    "normal": "pine_tree_01_trunk_c_nor_gl_1k.png"
+  },
+  "tree_small_02_branches": {
+    "diff": "tree_small_02_branch_diff_1k.png",
+    "normal": "tree_small_02_branch_nor_gl_1k.png"
+  },
+  "tree_small_02_leaves": {
+    "diff": "tree_small_02_leaves_diff_1k.png",
+    "normal": "tree_small_02_leaves_nor_gl_1k.png",
+    "alpha": "tree_small_02_leaves_alpha_1k.png"
+  },
+  "tree_small_02_trunk": {
+    "diff": "tree_small_02_diff_1k.jpg",
+    "normal": "tree_small_02_nor_gl_1k.exr"
+  }
+}

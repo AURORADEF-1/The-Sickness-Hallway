@@ -1,0 +1,30 @@
+{
+  "Radio": {
+    "material": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "diffuse": "Woodland/Gadgets/Radio/material_diffuse.png",
+      "normal": "Woodland/Gadgets/Radio/material_normal.png"
+    }
+  },
+  "Torch": {
+    "material": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "diffuse": "Woodland/Gadgets/Torch/material_diffuse.png",
+      "normal": "Woodland/Gadgets/Torch/material_normal.png"
+    }
+  }
+}

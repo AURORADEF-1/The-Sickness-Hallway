@@ -1,0 +1,4 @@
+User-supplied theme for THE SICKNESS ending.
+Source: /tmp/codex-remote-attachments/01a07630-ee95-73c1-9cfb-b0cce7cc01c5/E7FE72DB-0959-4888-8EDB-B32078B20FFF/1-ScreenRecording_10-30-2026-10-40-35-pm_1.mp4
+Extracted stereo at48kHz. Kept source .318..17.825s; removed phone-recording silence,8ms onset/20ms release for click-free edges, gain.85 for headroom. Original pitch and music preserved. Dedicated non-looping 2D cue starts at hard cut to black, gain.65, no monster filters/reverb.
+Reproduction: work/thornback-theme-ending/prepare_theme.py

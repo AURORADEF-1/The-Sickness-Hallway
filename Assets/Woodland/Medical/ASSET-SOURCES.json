@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "23588",
+    "slug": "hospital-wards-and-clinic-operations-adjustable-ward-b-007092c8",
+    "title": "Adjustable Ward Bed (Hospital Wards and Clinic Operations)",
+    "summary": "Height-adjustable three-section ward bed on a rolling chassis, with a hinged head section, hinged knee break, drop-side rails, headboard, footboard and pillow.",
+    "description": "Height-adjustable three-section ward bed on a rolling chassis, with a hinged head section, hinged knee break, drop-side rails, headboard, footboard and pillow. The deck splits into a fixed mid section and two hinged sections so a sim can pose sitting up or legs raised. Dimensions 0.95 x 0.98 x 2.07 m (X x Y x Z). Origin at the footprint centre on the floor, head end toward +Z. Metres, +Y up, +Z front. Named pivot nodes: head-section at [0.000, 0.440, 0.200]; head-section-shell at [0.000, 0.440, 0.200]; foot-section at [0.000, 0.440, -0.300]. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-adjustable-ward-b-007092c8",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23588/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-adjustable-ward-b-007092c8",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23588/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23588/v1/poster.webp",
+    "blurhash": "UDE3M8s:9E%M~q9FWB?b009F%Nof00?bkD9F",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 30880,
+      "triangles": 588,
+      "vertices": 1764,
+      "meshes": 7,
+      "materials": 4,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.47507247549863146,
+          -2.8953669719999908e-05,
+          -1.034999966621399
+        ],
+        "max": [
+          0.47507247549863146,
+          0.9799694946621191,
+          1.034999966621399
+        ]
+      },
+      "sizeMeters": [
+        0.95,
+        0.98,
+        2.07
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 17,
+    "publishedAt": "2026-09-07T20:11:54.147Z",
+    "updatedAt": "2026-10-01T16:40:53.489Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23588/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function AdjustableWardBedHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23588/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23588/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23588/v1/model.glb\" alt=\"Adjustable Ward Bed (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23588/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23588/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23589",
+    "slug": "hospital-wards-and-clinic-operations-patient-monitor-af189b00",
+    "title": "Patient Monitor (Hospital Wards and Clinic Operations)",
+    "summary": "Rolling vital-signs monitor: a weighted round base, a slim column and a bezelled display head with soft-key row and two lead ports.",
+    "description": "Rolling vital-signs monitor: a weighted round base, a slim column and a bezelled display head with soft-key row and two lead ports. Screen face uses the emissive display material so it reads as switched on from an overhead camera. Dimensions 0.44 x 1.44 x 0.42 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-patient-monitor-af189b00",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23589/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-patient-monitor-af189b00",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23589/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23589/v1/poster.webp",
+    "blurhash": "UB9j+PtR00IA~qoz4nM{%Ms;M_M{DioK-;R+",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 20616,
+      "triangles": 332,
+      "vertices": 996,
+      "meshes": 6,
+      "materials": 6,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.22001130812757563,
+          0,
+          -0.20920743074612697
+        ],
+        "max": [
+          0.22001130812757563,
+          1.440000057220459,
+          0.20920743074612697
+        ]
+      },
+      "sizeMeters": [
+        0.44,
+        1.44,
+        0.418
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 11,
+    "publishedAt": "2026-09-07T20:11:54.180Z",
+    "updatedAt": "2026-09-30T11:26:46.316Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23589/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function PatientMonitorHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23589/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23589/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23589/v1/model.glb\" alt=\"Patient Monitor (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23589/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23589/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23594",
+    "slug": "hospital-wards-and-clinic-operations-iv-stand-b8bbdf52",
+    "title": "IV Stand (Hospital Wards and Clinic Operations)",
+    "summary": "Five-star infusion stand on castors with a telescopic pole, a four-hook cross at the top and two hanging fluid bags with a drip chamber.",
+    "description": "Five-star infusion stand on castors with a telescopic pole, a four-hook cross at the top and two hanging fluid bags with a drip chamber. Dimensions 0.61 x 1.85 x 0.63 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-iv-stand-b8bbdf52",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23594/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-iv-stand-b8bbdf52",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23594/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23594/v1/poster.webp",
+    "blurhash": "U47UM6-;0000.8t7D$M{_4of8_Rjt8j[RjWV",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 23908,
+      "triangles": 432,
+      "vertices": 1296,
+      "meshes": 4,
+      "materials": 4,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.30336192577770804,
+          2.357079861646516e-06,
+          -0.31302976608276367
+        ],
+        "max": [
+          0.30336192577770804,
+          1.850000023841858,
+          0.31302976608276367
+        ]
+      },
+      "sizeMeters": [
+        0.607,
+        1.85,
+        0.626
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 11,
+    "publishedAt": "2026-09-07T20:11:54.261Z",
+    "updatedAt": "2026-09-30T12:00:35.377Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23594/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function IVStandHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23594/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23594/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23594/v1/model.glb\" alt=\"IV Stand (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23594/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23594/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23600",
+    "slug": "hospital-wards-and-clinic-operations-wheelchair-3e5ab0b7",
+    "title": "Wheelchair (Hospital Wards and Clinic Operations)",
+    "summary": "Self-propelled wheelchair with a slung seat and backrest, spoked rear wheels on named pivots, swivel front castors, armrests, push handles and folding footplates.",
+    "description": "Self-propelled wheelchair with a slung seat and backrest, spoked rear wheels on named pivots, swivel front castors, armrests, push handles and folding footplates. Dimensions 0.64 x 1.07 x 0.76 m (X x Y x Z). Origin at the footprint centre on the floor, facing +Z. Metres, +Y up, +Z front. Named pivot nodes: wheel-left at [-0.290, 0.335, -0.090]; wheel-left-steel at [-0.290, 0.335, -0.090]; wheel-right at [0.310, 0.335, -0.090]; wheel-right-steel at [0.310, 0.335, -0.090]. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-wheelchair-3e5ab0b7",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23600/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-wheelchair-3e5ab0b7",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23600/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23600/v1/poster.webp",
+    "blurhash": "U59@@jMx00%~*JMeD4yq00RPu4x]#SxuY5R6",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 41068,
+      "triangles": 896,
+      "vertices": 2688,
+      "meshes": 7,
+      "materials": 3,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.3200102159671914,
+          0,
+          -0.37999999165534976
+        ],
+        "max": [
+          0.319997104955381,
+          1.0750000476837158,
+          0.38000962498847096
+        ]
+      },
+      "sizeMeters": [
+        0.64,
+        1.075,
+        0.76
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 11,
+    "publishedAt": "2026-09-07T20:11:55.943Z",
+    "updatedAt": "2026-10-01T15:21:18.075Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23600/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function WheelchairHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23600/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23600/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23600/v1/model.glb\" alt=\"Wheelchair (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23600/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23600/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23598",
+    "slug": "hospital-wards-and-clinic-operations-patient-trolley-db7b57c2",
+    "title": "Patient Trolley (Hospital Wards and Clinic Operations)",
+    "summary": "Emergency department patient trolley: a high steel deck on an X-frame undercarriage with large castors, a hinged backrest, drop-side rails, a push handle and an integral drip pole.",
+    "description": "Emergency department patient trolley: a high steel deck on an X-frame undercarriage with large castors, a hinged backrest, drop-side rails, a push handle and an integral drip pole. Dimensions 0.81 x 1.82 x 1.92 m (X x Y x Z). Origin at the footprint centre on the floor, head end toward +Z. Metres, +Y up, +Z front. Named pivot nodes: backrest at [0.000, 0.840, 0.200]; backrest-shell at [0.000, 0.840, 0.200]. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-patient-trolley-db7b57c2",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23598/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-patient-trolley-db7b57c2",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23598/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23598/v1/poster.webp",
+    "blurhash": "UBC6[b%M00RjD%WA-=x]00WB_NjYM{j[M_M_",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 29944,
+      "triangles": 568,
+      "vertices": 1704,
+      "meshes": 5,
+      "materials": 4,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.43494506027941393,
+          -2.575325710123949e-05,
+          -0.9599999785423279
+        ],
+        "max": [
+          0.3800019798660226,
+          1.8199580457303348,
+          0.9599999785423279
+        ]
+      },
+      "sizeMeters": [
+        0.815,
+        1.82,
+        1.92
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 8,
+    "publishedAt": "2026-09-07T20:11:56.966Z",
+    "updatedAt": "2026-09-30T00:49:46.442Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23598/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function PatientTrolleyHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23598/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23598/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23598/v1/model.glb\" alt=\"Patient Trolley (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23598/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23598/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23610",
+    "slug": "hospital-wards-and-clinic-operations-operating-table-8a6f0838",
+    "title": "Operating Table (Hospital Wards and Clinic Operations)",
+    "summary": "Powered operating table: a stable pedestal base with foot bars, a lifting column and a sectioned padded top on a named tilt node, with side rails and two swing-out arm boards.",
+    "description": "Powered operating table: a stable pedestal base with foot bars, a lifting column and a sectioned padded top on a named tilt node, with side rails and two swing-out arm boards. Dimensions 1.52 x 1.08 x 2.00 m (X x Y x Z). Origin at the footprint centre on the floor, head end toward +Z. Metres, +Y up, +Z front. Named pivot nodes: table-top at [0.000, 0.920, 0.000]; table-top-sky at [0.000, 0.920, 0.000]; table-top-charcoal at [0.000, 0.920, 0.000]. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-operating-table-8a6f0838",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23610/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-operating-table-8a6f0838",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23610/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23610/v1/poster.webp",
+    "blurhash": "UDA,|Fxu00NF_NV@IBtR00IU?b%M00M{%gt7",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 28840,
+      "triangles": 536,
+      "vertices": 1608,
+      "meshes": 6,
+      "materials": 4,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.7611487980971903,
+          -7.323928230329457e-06,
+          -1
+        ],
+        "max": [
+          0.7611487980971903,
+          1.075367038294744,
+          1
+        ]
+      },
+      "sizeMeters": [
+        1.522,
+        1.075,
+        2
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 9,
+    "publishedAt": "2026-09-07T20:11:58.939Z",
+    "updatedAt": "2026-09-30T16:46:38.640Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23610/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function OperatingTableHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23610/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23610/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23610/v1/model.glb\" alt=\"Operating Table (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23610/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23610/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23611",
+    "slug": "hospital-wards-and-clinic-operations-surgical-lamp-8bc7fd9e",
+    "title": "Surgical Lamp (Hospital Wards and Clinic Operations)",
+    "summary": "Ceiling-mounted twin surgical lamp: a mounting plate and drop tube, a main lamp on a named articulated arm with a named dish head of six emitters, and a smaller fixed satellite head.",
+    "description": "Ceiling-mounted twin surgical lamp: a mounting plate and drop tube, a main lamp on a named articulated arm with a named dish head of six emitters, and a smaller fixed satellite head. Modelled hanging from the ceiling and settled to y=0 for export; place it about 1.5 m above the floor node in a scene. Dimensions 0.72 x 1.09 x 2.35 m (X x Y x Z). Origin at the footprint centre; the main head faces down toward +Z of the mount. Metres, +Y up, +Z front. Named pivot nodes: lamp-arm at [0.000, 0.626, -0.163]; lamp-arm-steel at [0.000, 0.626, -0.163]; lamp-head at [0.000, 0.166, 0.817]; lamp-head-screen at [0.000, 0.166, 0.817]; lamp-head-steel at [0.000, 0.166, 0.817]. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-surgical-lamp-8bc7fd9e",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23611/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-surgical-lamp-8bc7fd9e",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23611/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23611/v1/poster.webp",
+    "blurhash": "U8CP@e~q00D%4n004n_300?b?aocM{~q_34n",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 45056,
+      "triangles": 860,
+      "vertices": 2580,
+      "meshes": 8,
+      "materials": 3,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.36000001430511475,
+          -8.826923606868042e-07,
+          -1.1767406463623047
+        ],
+        "max": [
+          0.36000001430511475,
+          1.0859818449382463,
+          1.176740642888752
+        ]
+      },
+      "sizeMeters": [
+        0.72,
+        1.086,
+        2.353
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 7,
+    "publishedAt": "2026-09-07T20:11:59.158Z",
+    "updatedAt": "2026-09-29T23:38:09.104Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23611/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function SurgicalLampHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23611/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23611/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23611/v1/model.glb\" alt=\"Surgical Lamp (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23611/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23611/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23620",
+    "slug": "hospital-wards-and-clinic-operations-medicine-fridge-de086267",
+    "title": "Medicine Fridge (Hospital Wards and Clinic Operations)",
+    "summary": "Glass-door medicine refrigerator with four wire shelves of stock boxes, a full-height handle, a plinth and a roof-mounted temperature readout.",
+    "description": "Glass-door medicine refrigerator with four wire shelves of stock boxes, a full-height handle, a plinth and a roof-mounted temperature readout. Dimensions 0.62 x 1.94 x 0.69 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-medicine-fridge-de086267",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23620/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-medicine-fridge-de086267",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23620/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23620/v1/poster.webp",
+    "blurhash": "U9Dvi.E100-px]oeRiWB00-;~p9FxuazM{j?",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 28872,
+      "triangles": 540,
+      "vertices": 1620,
+      "meshes": 7,
+      "materials": 7,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.3099658103033827,
+          0,
+          -0.3449823689236966
+        ],
+        "max": [
+          0.3099658103033827,
+          1.940000057220459,
+          0.3450472875945237
+        ]
+      },
+      "sizeMeters": [
+        0.62,
+        1.94,
+        0.69
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 12,
+    "publishedAt": "2026-09-07T20:12:01.055Z",
+    "updatedAt": "2026-10-02T10:10:31.137Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23620/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function MedicineFridgeHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23620/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23620/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23620/v1/model.glb\" alt=\"Medicine Fridge (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23620/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23620/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23621",
+    "slug": "hospital-wards-and-clinic-operations-centrifuge-7a538303",
+    "title": "Centrifuge (Hospital Wards and Clinic Operations)",
+    "summary": "Benchtop laboratory centrifuge with a chamfered body, a domed lid with a coloured seal ring, a small control display and two lid catches.",
+    "description": "Benchtop laboratory centrifuge with a chamfered body, a domed lid with a coloured seal ring, a small control display and two lid catches. Dimensions 0.46 x 0.34 x 0.48 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-centrifuge-7a538303",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23621/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-centrifuge-7a538303",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23621/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23621/v1/poster.webp",
+    "blurhash": "U5G+gs?b00-p0fIns9$*009Y%gR7}@%NtlIo",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 20472,
+      "triangles": 344,
+      "vertices": 1032,
+      "meshes": 5,
+      "materials": 5,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.23000000417232513,
+          7.628331754272466e-06,
+          -0.240004577595099
+        ],
+        "max": [
+          0.23000000417232513,
+          0.3399923752445244,
+          0.23999999463558197
+        ]
+      },
+      "sizeMeters": [
+        0.46,
+        0.34,
+        0.48
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 5,
+    "publishedAt": "2026-09-07T20:12:01.268Z",
+    "updatedAt": "2026-10-01T06:38:03.081Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23621/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function CentrifugeHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23621/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23621/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23621/v1/model.glb\" alt=\"Centrifuge (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23621/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23621/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23622",
+    "slug": "hospital-wards-and-clinic-operations-microscope-bench-e3a7d020",
+    "title": "Microscope Bench (Hospital Wards and Clinic Operations)",
+    "summary": "Laboratory bench with a wipe-clean top and lower rail, an upright compound microscope with a stage and objective turret, a reagent block with six vials and a gas-lift stool.",
+    "description": "Laboratory bench with a wipe-clean top and lower rail, an upright compound microscope with a stage and objective turret, a reagent block with six vials and a gas-lift stool. Dimensions 1.31 x 1.32 x 0.95 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-microscope-bench-e3a7d020",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23622/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-microscope-bench-e3a7d020",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23622/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23622/v1/poster.webp",
+    "blurhash": "U9CP@YIV00xtxA%MS6D%00%1~pRR0NRP^%oy",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 42060,
+      "triangles": 760,
+      "vertices": 2280,
+      "meshes": 7,
+      "materials": 7,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.6549999713897705,
+          -2.7635248702750914e-06,
+          -0.47537874316955087
+        ],
+        "max": [
+          0.6549809800110371,
+          1.317994575777613,
+          0.47536707244363
+        ]
+      },
+      "sizeMeters": [
+        1.31,
+        1.318,
+        0.951
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 5,
+    "publishedAt": "2026-09-07T20:12:02.493Z",
+    "updatedAt": "2026-10-01T09:01:51.919Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23622/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function MicroscopeBenchHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23622/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23622/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23622/v1/model.glb\" alt=\"Microscope Bench (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23622/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23622/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23623",
+    "slug": "hospital-wards-and-clinic-operations-sample-rack-541ed6f8",
+    "title": "Sample Rack (Hospital Wards and Clinic Operations)",
+    "summary": "Ten-place laboratory sample rack: a two-plate frame on end supports holding glass tubes with colour-coded caps.",
+    "description": "Ten-place laboratory sample rack: a two-plate frame on end supports holding glass tubes with colour-coded caps. Dimensions 0.32 x 0.19 x 0.16 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-sample-rack-541ed6f8",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23623/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-sample-rack-541ed6f8",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23623/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23623/v1/poster.webp",
+    "blurhash": "U9Cs:U.800M{_M-=RQMx00k8ozR6Djx[oyDi",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 26952,
+      "triangles": 512,
+      "vertices": 1536,
+      "meshes": 5,
+      "materials": 5,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.1599999964237213,
+          -1.2207403517539017e-05,
+          -0.0800122056153782
+        ],
+        "max": [
+          0.1599999964237213,
+          0.19200485918485463,
+          0.0800122056153782
+        ]
+      },
+      "sizeMeters": [
+        0.32,
+        0.192,
+        0.16
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 6,
+    "publishedAt": "2026-09-07T20:12:02.275Z",
+    "updatedAt": "2026-09-30T00:39:52.570Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23623/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function SampleRackHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23623/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23623/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23623/v1/model.glb\" alt=\"Sample Rack (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23623/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23623/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23625",
+    "slug": "hospital-wards-and-clinic-operations-autoclave-e5ca2fa6",
+    "title": "Autoclave (Hospital Wards and Clinic Operations)",
+    "summary": "Front-loading steam autoclave: a cabinet with a circular chamber mouth, a spoked locking handwheel, a control fascia with a cycle display and indicator lamps, and a steam riser.",
+    "description": "Front-loading steam autoclave: a cabinet with a circular chamber mouth, a spoked locking handwheel, a control fascia with a cycle display and indicator lamps, and a steam riser. Dimensions 0.76 x 1.62 x 0.85 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-autoclave-e5ca2fa6",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23625/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-autoclave-e5ca2fa6",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23625/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23625/v1/poster.webp",
+    "blurhash": "U3GlO~?b0000NIR%D$IV00%M~q4o4nWB~p%L",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 30148,
+      "triangles": 576,
+      "vertices": 1728,
+      "meshes": 7,
+      "materials": 7,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.380020448519916,
+          0,
+          -0.4226157899504743
+        ],
+        "max": [
+          0.380020448519916,
+          1.6200000047683716,
+          0.42261057133298735
+        ]
+      },
+      "sizeMeters": [
+        0.76,
+        1.62,
+        0.845
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 6,
+    "publishedAt": "2026-09-07T20:12:02.388Z",
+    "updatedAt": "2026-09-30T12:47:55.225Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23625/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function AutoclaveHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23625/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23625/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23625/v1/model.glb\" alt=\"Autoclave (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23625/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23625/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23624",
+    "slug": "hospital-wards-and-clinic-operations-prep-counter-44fe676b",
+    "title": "Prep Counter (Hospital Wards and Clinic Operations)",
+    "summary": "Pharmacy preparation counter: base cupboards and a drawer bank under a wipe-clean worktop, an inset stainless sink with a swan-neck tap and a wall shelf of reagent bottles.",
+    "description": "Pharmacy preparation counter: base cupboards and a drawer bank under a wipe-clean worktop, an inset stainless sink with a swan-neck tap and a wall shelf of reagent bottles. Dimensions 1.70 x 1.67 x 0.68 m (X x Y x Z). Origin at the footprint centre on the floor, working face toward +Z. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-prep-counter-44fe676b",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23624/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-prep-counter-44fe676b",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23624/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23624/v1/poster.webp",
+    "blurhash": "U7H2i$xa009Y9F?bn*9F00NF~UkD.SkFrr4m",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 36584,
+      "triangles": 784,
+      "vertices": 2352,
+      "meshes": 7,
+      "materials": 7,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.8500000238418579,
+          -6.406903235070538e-06,
+          -0.33749208219216825
+        ],
+        "max": [
+          0.8500000238418579,
+          1.6699999570846558,
+          0.3375285590241964
+        ]
+      },
+      "sizeMeters": [
+        1.7,
+        1.67,
+        0.675
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 6,
+    "publishedAt": "2026-09-07T20:12:02.351Z",
+    "updatedAt": "2026-09-30T17:53:44.905Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23624/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function PrepCounterHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23624/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23624/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23624/v1/model.glb\" alt=\"Prep Counter (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23624/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23624/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23627",
+    "slug": "hospital-wards-and-clinic-operations-reception-desk-65167033",
+    "title": "Reception Desk (Hospital Wards and Clinic Operations)",
+    "summary": "Curved reception counter with a raised transaction ledge on slim posts, a wipe-clean top, a lowered accessible bay, a staff-side monitor and keyboard and a full-length kick plate.",
+    "description": "Curved reception counter with a raised transaction ledge on slim posts, a wipe-clean top, a lowered accessible bay, a staff-side monitor and keyboard and a full-length kick plate. Dimensions 2.91 x 1.32 x 1.09 m (X x Y x Z). Origin at the footprint centre on the floor, public face toward +Z. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-reception-desk-65167033",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23627/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-reception-desk-65167033",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23627/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23627/v1/poster.webp",
+    "blurhash": "UCFY#|-:00kE9E^+-=9G00D%~pxuxw9GD%%K",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 31616,
+      "triangles": 560,
+      "vertices": 1680,
+      "meshes": 6,
+      "materials": 6,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -1.4545823335647583,
+          6.720628795697792e-06,
+          -0.5426768903624322
+        ],
+        "max": [
+          1.4545823335647583,
+          1.3199933318232917,
+          0.5426498977077177
+        ]
+      },
+      "sizeMeters": [
+        2.909,
+        1.32,
+        1.085
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 8,
+    "publishedAt": "2026-09-07T20:12:02.684Z",
+    "updatedAt": "2026-09-30T02:03:15.083Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23627/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function ReceptionDeskHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23627/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23627/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23627/v1/model.glb\" alt=\"Reception Desk (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23627/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23627/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23642",
+    "slug": "hospital-wards-and-clinic-operations-staff-locker-bank-b5d22764",
+    "title": "Staff Locker Bank (Hospital Wards and Clinic Operations)",
+    "summary": "Six-door staff locker bank in three bays and two tiers, on a recessed plinth with a sloping top, louvre vents, bar handles and lock escutcheons.",
+    "description": "Six-door staff locker bank in three bays and two tiers, on a recessed plinth with a sloping top, louvre vents, bar handles and lock escutcheons. Dimensions 1.24 x 1.95 x 0.56 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-staff-locker-bank-b5d22764",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23642/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-staff-locker-bank-b5d22764",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23642/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23642/v1/poster.webp",
+    "blurhash": "UBFF{a_300DhYPx]v#IT00NF~Wo3%fozM{RP",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 29528,
+      "triangles": 532,
+      "vertices": 1596,
+      "meshes": 5,
+      "materials": 5,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.6200000047683716,
+          0,
+          -0.2783383081653795
+        ],
+        "max": [
+          0.6200000047683716,
+          1.949619194084038,
+          0.27835864682200406
+        ]
+      },
+      "sizeMeters": [
+        1.24,
+        1.95,
+        0.557
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 8,
+    "publishedAt": "2026-09-07T20:12:06.051Z",
+    "updatedAt": "2026-10-02T10:36:14.342Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23642/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function StaffLockerBankHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23642/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23642/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23642/v1/model.glb\" alt=\"Staff Locker Bank (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23642/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23642/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23647",
+    "slug": "hospital-wards-and-clinic-operations-waste-bin-set-899fdf50",
+    "title": "Waste Bin Set (Hospital Wards and Clinic Operations)",
+    "summary": "Set of three colour-coded pedal bins for general, offensive and recycling waste streams, each with a foot pedal, lift arm and a coloured lid and label patch.",
+    "description": "Set of three colour-coded pedal bins for general, offensive and recycling waste streams, each with a foot pedal, lift arm and a coloured lid and label patch. Dimensions 1.25 x 0.71 x 0.41 m (X x Y x Z). Origin at the centre of the three-bin row on the floor. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-waste-bin-set-899fdf50",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23647/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-waste-bin-set-899fdf50",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23647/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23647/v1/poster.webp",
+    "blurhash": "UGH2s8.801xHk;_NXAMx00I:xusnt89ZjXV@",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 29000,
+      "triangles": 612,
+      "vertices": 1836,
+      "meshes": 5,
+      "materials": 5,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.6225032807324198,
+          1.693333905550265e-05,
+          -0.20252830232598032
+        ],
+        "max": [
+          0.6225000023841858,
+          0.7099951001799212,
+          0.20252830232598032
+        ]
+      },
+      "sizeMeters": [
+        1.245,
+        0.71,
+        0.405
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 7,
+    "publishedAt": "2026-09-07T20:12:07.522Z",
+    "updatedAt": "2026-09-30T09:56:13.509Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23647/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function WasteBinSetHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23647/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23647/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23647/v1/model.glb\" alt=\"Waste Bin Set (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23647/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23647/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  },
+  {
+    "id": "23650",
+    "slug": "hospital-wards-and-clinic-operations-records-shelving-788aa5e2",
+    "title": "Records Shelving (Hospital Wards and Clinic Operations)",
+    "summary": "Open steel records shelving bay: four adjustable shelves of upright box files in mixed department colours between slotted end frames.",
+    "description": "Open steel records shelving bay: four adjustable shelves of upright box files in mixed department colours between slotted end frames. Dimensions 1.61 x 1.99 x 0.50 m (X x Y x Z). Origin at the footprint centre, resting on y=0. Metres, +Y up, +Z front. Clinic stylized palette of eight flat colours, no textures required. Static geometry; no rig, collision or navigation data.",
+    "status": "published",
+    "url": "https://3dassets.dev/assets/hospital-wards-and-clinic-operations-records-shelving-788aa5e2",
+    "cdnUrl": "https://cdn.3dassets.dev/assets/23650/v1/model.glb",
+    "downloadUrl": "https://3dassets.dev/download/hospital-wards-and-clinic-operations-records-shelving-788aa5e2",
+    "thumbnailUrl": "https://cdn.3dassets.dev/assets/23650/v1/thumb.webp",
+    "posterUrl": "https://cdn.3dassets.dev/assets/23650/v1/poster.webp",
+    "blurhash": "UCDT6K-;009F~qx]DiIA4UV[?bt7%MxbM{M_",
+    "category": {
+      "slug": "props",
+      "title": "Props & Furniture"
+    },
+    "tags": [
+      {
+        "slug": "modern",
+        "title": "Modern"
+      },
+      {
+        "slug": "stylized",
+        "title": "Stylized"
+      },
+      {
+        "slug": "interior",
+        "title": "Interior"
+      }
+    ],
+    "license": {
+      "slug": "cc0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false
+    },
+    "contributor": {
+      "username": "3dassets",
+      "name": "3D Assets",
+      "url": "https://3dassets.dev/u/3dassets"
+    },
+    "stats": {
+      "fileSize": 23252,
+      "triangles": 588,
+      "vertices": 1764,
+      "meshes": 5,
+      "materials": 5,
+      "textures": 0,
+      "animations": [],
+      "boundingBox": {
+        "min": [
+          -0.8050308275525467,
+          0,
+          -0.25000259527140123
+        ],
+        "max": [
+          0.8050308275525467,
+          1.9900000095367432,
+          0.25000259527140123
+        ]
+      },
+      "sizeMeters": [
+        1.61,
+        1.99,
+        0.5
+      ],
+      "hasDraco": false,
+      "hasMeshopt": false,
+      "hasKTX2": false,
+      "extensionsUsed": [
+        "KHR_mesh_quantization"
+      ]
+    },
+    "aiGenerated": true,
+    "aiModel": "Claude Fable 5.1",
+    "downloads": 10,
+    "publishedAt": "2026-09-07T20:12:07.746Z",
+    "updatedAt": "2026-09-30T18:56:54.820Z",
+    "usage": {
+      "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/23650/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+      "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function RecordsShelvingHospitalWardsAndClinicOperations(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/23650/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/23650/v1/model.glb')",
+      "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/23650/v1/model.glb\" alt=\"Records Shelving (Hospital Wards and Clinic Operations)\" camera-controls auto-rotate></model-viewer>",
+      "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/23650/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+      "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+      "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/23650/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+    }
+  }
+]
